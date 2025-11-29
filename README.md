@@ -3,7 +3,7 @@
 This project contains a comprehensive SQL script with 34 queries designed to analyze hospital-related datasets, including Patients, Doctors, Admissions, and Province names.
 The goal is to demonstrate SQL proficiency across multiple levels — Basic, Intermediate, and Advanced — while deriving meaningful insights from medical records.
 
-The SQL script used in this repository is referenced here:HOSPITAL_DATA_ANALYSIS.sql
+The SQL script used in this repository is referenced here: HOSPITAL_DATA_ANALYSIS.sql
 
 🧰 Technologies Used
 
