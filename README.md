@@ -3,8 +3,6 @@
 This project contains a comprehensive SQL script with 34 queries designed to analyze hospital-related datasets, including Patients, Doctors, Admissions, and Province names.
 The goal is to demonstrate SQL proficiency across multiple levels — Basic, Intermediate, and Advanced — while deriving meaningful insights from medical records.
 
-The SQL script used in this repository is referenced here: HOSPITAL_DATA_ANALYSIS.sql
-
 🧰 Technologies Used
 
 SQL (MySQL Workbench)
@@ -71,13 +69,19 @@ These involve multiple-table joins, conditional logic, grouping logic, and creat
 
 📘 Key Concepts Demonstrated
 
-✔ SQL Data Cleaning
-✔ Conditional Aggregations
-✔ Pattern Matching (LIKE)
-✔ Multi-table Joins
-✔ Data Formatting & Transformations
-✔ Calculated Columns (BMI, password generation)
-✔ Use of GROUP BY, HAVING, UNION ALL
-✔ Real-world Healthcare Data Analysis scenarios
+| Category                     | Concepts Demonstrated |
+|-----------------------------|------------------------|
+| **Data Retrieval**          | SELECT statements, ordering, filtering, pattern matching (LIKE), DISTINCT usage |
+| **Data Cleaning**           | Handling NULL values, updating missing fields, replacing placeholders (e.g., allergies) |
+| **Aggregations**            | COUNT, SUM, MAX, MIN, GROUP BY, HAVING, derived groupings (weight brackets) |
+| **Date Operations**         | Filtering by year, decade, extracting day from date, sorting by date ranges |
+| **String Manipulation**     | CONCAT, CONCAT_WS, UPPER, LOWER, LENGTH, custom formatting of names |
+| **Conditional Logic**       | CASE WHEN expressions, Boolean flags (e.g., obesity) |
+| **Joins & Relationships**   | INNER JOIN across Patients, Doctors & Admissions tables, multi-table joins |
+| **Advanced Filtering**      | Pattern rules (start-end characters, specific lengths), multiple conditions |
+| **Union Operations**        | UNION ALL to combine patient & doctor records |
+| **Analytical Scenarios**    | City segmentation, diagnosis history, admission frequency analysis |
+| **Mathematical Calculations** | BMI formula using POWER & arithmetic operations |
+| **Security Logic**          | Temporary password generation using concatenation of fields |
 
 
