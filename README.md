@@ -1,6 +1,6 @@
 📊 Hospital Data Analysis — SQL Project
 
-This project contains a comprehensive SQL script with 34 queries designed to analyze hospital-related datasets, including Admissions, Doctors, Patients and Province_Names.
+This project contains a comprehensive SQL script with 34 queries designed to analyze hospital-related datasets, including Admissions, Doctors, Patients and Province Names.
 The goal is to demonstrate SQL proficiency into Three Levels  — Basic, Intermediate, and Advanced — while deriving meaningful insights from medical records.
 
 🧰 Technologies Used :
@@ -37,7 +37,7 @@ These Queries focus on Simple Filtering, Selecting, Ordering, and Basic Conditio
 |    **15** | Filtering using Multiple Conditions                 |
 |    **16** | Unique Birth-Years (DISTINCT + ORDER)               |
 |    **17** | First Names that occur only Once                    |
-|    **18** | Pattern matching with `LIKE`                        |
+|    **18** | Pattern Matching with `LIKE`                        |
 
 🟩 2. INTERMEDIATE LEVEL QUERIES :
 
